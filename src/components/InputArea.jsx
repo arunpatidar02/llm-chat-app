@@ -35,7 +35,7 @@ const InputArea = ({
   };
 
   return (
-    <div class="flex w-full gap-2 rounded-[26px] p-1.5 transition-colors contain-inline-size bg-gray-100">
+    <div className="flex w-full gap-2 rounded-[26px] p-1.5 transition-colors contain-inline-size bg-gray-100">
       <div className="flex min-w-0 flex-1 flex-col">
         <textarea
           ref={textareaRef}
@@ -48,7 +48,7 @@ const InputArea = ({
           disabled={isLoading} // Disable textarea when loading
         />
       </div>
-      <div class="min-w-8 relative">
+      <div className="min-w-8 relative">
         <button
           onClick={handleSendMessage}
           className={`w-10 h-10 absolute bottom-0 right-1 flex items-center justify-center rounded-full transition duration-200 ${
