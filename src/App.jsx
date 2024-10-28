@@ -76,7 +76,7 @@ const App = () => {
     <div className="flex flex-col h-screen bg-white">
       {/* Header */}
       <header className="flex justify-between items-center p-6 shadow">
-        <h1 className="text-2xl font-bold ">ChatGPT</h1>
+        <h1 className="text-2xl font-bold ">LLM ChatApp</h1>
         <img src="/logo.svg" alt="Logo" className="h-12 w-12" />
         <h2 className="text-xl font-bold ">llama3.2</h2>
       </header>
