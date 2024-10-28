@@ -12,26 +12,36 @@ This React application leverages the **Ollama LLM REST API** to enable users to 
 
 -   **Node.js**: Ensure Node.js is installed.
 -   **Ollama**: Set up the [Ollama LLM REST API](https://github.com/ollama/ollama?tab=readme-ov-file#rest-api) locally.
-- **LLM Model** : llama3.2
+-   **LLM Model** : llama3.2
 
 ## Getting Started
 
 1.  **Clone the repository**:
+
+   
+```
+git clone https://github.com/arunpatidar02/llm-chat-app.git
+```
+
+```
+cd llm-chat-app
+```
     
-    
-    `  git clone https://github.com/arunpatidar02/llm-chat-app.git    `
-    
-       ` cd llm-chat-app `
+
     
 2.  **Install dependencies**:
     
-    `npm install` 
+```
+npm install
+```
     
 3.  **Run the App**:
     
-    `npm start` 
+```
+npm start
+```
     
-    The app will open in `http://localhost:3001`.
+The app will open in `http://localhost:3001`.
     
 
 ## Usage
