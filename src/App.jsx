@@ -31,14 +31,14 @@ const App = () => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:11434/api/chat', {
-        model: 'llama3.2',
-        messages: [
-          ...messages.filter((msg) => msg.role !== 'system'),
-          newMessage,
-        ],
-        stream: false,
-      });
+        const response = await axios.post(process.env.REACT_APP_LLM_API, {
+          model: process.env.REACT_APP_LLM_MODEL,
+          messages: [
+            ...messages.filter((msg) => msg.role !== 'system'),
+            newMessage,
+          ],
+          stream: false
+        });
 
       const assistantMessage = {
         ...response.data.message,
