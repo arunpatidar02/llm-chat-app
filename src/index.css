@@ -9,17 +9,24 @@
 body {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color:#0d0d0d;
+  font-weight: normal;
+  color:#4d4d4d;
 }
 
 .message-container {
-  line-height: 1;
+  line-height: 1.5;
 }
 .message-container ul {
   list-style-type: disc;
   margin-left: 20px;
 }
+
+pre {
+  background-color: #e0e1e2;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+
 
 
