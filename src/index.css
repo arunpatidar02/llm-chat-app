@@ -23,6 +23,7 @@ body {
 }
 
 .message-container pre {
+  font-size: 14px;
   background-color: #e0e1e2;
   padding: 1rem;
   border-radius: .5rem;
